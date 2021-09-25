@@ -1,0 +1,24 @@
+.lead{
+    display: flex;
+    width: calc(100% - 296px);
+    flex-direction: column;
+    margin: auto;
+  }
+
+  @media (max-width: 1279px){
+    .lead{
+      width: calc(100% - 96px);
+    }
+  }
+
+  @media (max-width: 1023px){
+    .lead{
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 767px){
+    .lead{
+      width: 100%;
+    }
+  }
