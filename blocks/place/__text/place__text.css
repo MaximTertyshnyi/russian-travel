@@ -5,6 +5,6 @@
   @media (max-width: 767px){
     .place__text{
      width: 288px;
-     margin: 0 16px 0 16px;
+     margin: 0 auto 0 auto;
     }
   }
