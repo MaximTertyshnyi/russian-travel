@@ -17,13 +17,13 @@
 
   @media (max-width: 1023px){
     .lead__subtitle{
-      width: calc(100% - 128px);
+      max-width: 640px;
     }
   }
 
   @media (max-width: 767px){
     .lead__subtitle{
-      width: calc(100% - 32px);
+      min-width: calc(100% - 32px);
       margin-bottom:40px;
       font-size: 16px;
       line-height: 125%;
