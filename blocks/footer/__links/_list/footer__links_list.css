@@ -1,9 +1,0 @@
-  @media (max-width: 767px){
-    .footer__links_list{
-        margin-bottom: 32px;
-    }
-    
-    .footer__links_list:last-child{
-        margin-bottom: 0;
-      }
-}
