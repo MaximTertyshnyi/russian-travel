@@ -6,13 +6,26 @@
   @media (max-width: 1024px){
     .intro{
       width: calc(100% - 96px);
-      margin: 88px auto 88px auto;
+      margin: 92px auto 92px auto;
     }
   }
   
+  @media (max-width: 1023px){
+    .intro{
+      margin: 88px auto 88px auto;
+    }
+  }
+
   @media (max-width: 768px){
+    .intro{
+      width: calc(100% - 48px);
+    }
+  }
+
+  @media (max-width: 425px){
     .intro{
       width: calc(100% - 32px);
       margin: 64px auto 64px auto;
     }
   }
+  

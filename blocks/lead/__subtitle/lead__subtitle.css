@@ -17,7 +17,7 @@
 
   @media (max-width: 1023px){
     .lead__subtitle{
-      max-width: 640px;
+      min-width: calc(100% - 128px);
     }
   }
 
