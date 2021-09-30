@@ -4,19 +4,12 @@
     font-weight: 900;
     line-height: 104%;
     text-align: center;
-    width: calc(100% - 264px);
+    max-width: 720px;
   }
 
   @media (max-width: 1279px){
     .lead__title{
-      width: calc(100% - 208px);
       margin-top: 48px;
-    }
-  }
-
-  @media (max-width: 1023px){
-    .lead__title{
-      width: calc(100% - 48px);
     }
   }
 
