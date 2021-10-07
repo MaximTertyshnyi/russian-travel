@@ -1,0 +1,7 @@
+.video__icon-play{
+    width: 41px;
+    height: 41px;
+    margin: 30px auto 94px 30px;
+    position: relative;
+    z-index: 1;
+}

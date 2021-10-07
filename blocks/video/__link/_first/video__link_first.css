@@ -1,0 +1,23 @@
+.video__link_first{
+    background: url(../../../../images/kamchatka.jpg) ;
+    background-size: cover;
+    background-position: center;
+    min-height: 323px;
+    background-repeat: no-repeat;
+}
+
+.video__link_first::before{
+    content: "";
+    position: absolute;
+    background-color:#2A2C2F;
+    opacity: .3;
+    transition: opacity .5s;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .video__link_first:hover::before{
+    opacity: .8;
+  }

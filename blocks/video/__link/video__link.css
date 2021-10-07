@@ -1,0 +1,22 @@
+.video__link{
+    width: 583px;
+    text-decoration: none;
+    border-radius: 6px;
+    position: relative;
+}
+
+.video__link::before{
+    content: "";
+    position: absolute;
+    background-color:#2A2C2F;
+    opacity: .3;
+    transition: opacity .5s;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .video__link:hover::before{
+    opacity: .8;
+  }

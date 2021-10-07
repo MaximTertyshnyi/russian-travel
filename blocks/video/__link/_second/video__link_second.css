@@ -1,0 +1,7 @@
+.video__link_second{
+    background: url(../../../../images/observatory.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 323px;
+}

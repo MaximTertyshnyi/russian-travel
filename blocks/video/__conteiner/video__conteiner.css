@@ -1,0 +1,9 @@
+.video__conteiner{
+    display: flex;
+    width: 1184px;
+    list-style-type: none;
+    margin: 0;
+    flex-direction: row;
+    padding: 0;
+    justify-content: space-between;
+}
