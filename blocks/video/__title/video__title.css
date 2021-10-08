@@ -8,3 +8,17 @@
     margin: 0 auto 18px 30px;
     z-index: 1;
 }
+  
+  @media (max-width: 1023px){
+    .video__title{
+        font-size: 24px;
+        line-height: 26px;
+        margin: 0 auto 12px 24px;
+    }
+  }
+  
+  @media (max-width: 767px){
+    .video__title{
+        margin: 0 auto 2px 16px;
+    }
+  }

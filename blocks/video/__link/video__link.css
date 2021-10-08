@@ -20,3 +20,9 @@
   .video__link:hover::before{
     opacity: .8;
   }
+  
+@media (max-width: 768px) {
+  .video__link{
+    width: 100%;
+  }
+}

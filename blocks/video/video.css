@@ -4,4 +4,26 @@
     width: calc(100% - 96px);
     flex-direction: column;
     text-align: center;
+    justify-content: center;
 }
+
+@media (max-width: 1279px){
+    .video{
+      width: calc(100% - 96px);
+    }
+  }
+  
+  @media (max-width: 1023px){
+    .video{
+      width: calc(100% - 48px);
+      margin: 95px auto 102px auto;
+    }
+  }
+  
+  @media (max-width: 767px){
+    .video{
+      flex-direction: column;
+      width: calc(100% - 32px);
+      margin: 64px auto 64px auto;
+    }
+  }
